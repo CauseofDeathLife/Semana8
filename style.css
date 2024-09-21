@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+}
+@font-face {
+    font-family:fuente1 ;
+    src: url(font/Cream\ Cake.otf);
+}
+html{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: fuente1;
+    font-size: 22px;
+}
+body{
+    
+}
+header{
+    background-color: aquamarine;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo img{
+    width: 120px;
+    border-radius: 50%;
+}
+nav{
+    background-color: blueviolet;
+    padding: 15px;
+}
+nav a{
+    background-color: blue;
+    color: aqua;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 15px;
+}
+nav a:hover{
+    background-color: chartreuse;
+    color: blueviolet;
+}
+main{
+    /* background-color: lightsalmon; */
+    min-height: 100vh;
+    background-image: url(images/fondo_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding: 30px 0;
+    /* background: linear-gradient(to right, blue, pink); */
+}
+footer{
+    background-color: #86e686;
+}
+p{
+    color: rgb(156, 15, 81);
+}
+.px{
+    width: 500px;
+    height: 350px;
+    padding: 20px;
+    margin: 0 auto 25px;
+    background-color: rgba(37, 29, 56,0.4);
+    border: 2px solid rgb(22, 23, 22);
+}
+.cuadro-rem{ /* Toma font size del html */
+    width: 31.25rem;
+    height: 18.75rem;
+    padding: 1.25rem;
+    margin: 1.5625rem auto;
+    background-color: rgba(37, 29, 56,0.4);
+    border: 2px solid rgb(22, 23, 22);
+}
+.em{
+    font-size: 16%
+}
+.cuadro-em{
+    width: 31.25em;
+    height: 18.75em;
+    padding: 1.25em;
+    margin: 1.5625em auto;
+    background-color: rgba(37, 29, 56,0.4);
+    border: 2px solid rgb(22, 23, 22);
+}
+img{
+    width: 100%;
+}
+
+.columnas{
+    display: flex;
+    gap: 3%;
+    justify-content: center;/* horizontal */
+    align-items: center; /* verticaal */
+}
+
+.columnas .dos{
+    width: 32,5%;
+}
